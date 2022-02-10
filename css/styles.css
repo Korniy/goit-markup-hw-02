@@ -143,7 +143,11 @@ span {
 }
 
 /* Секція команда TEAM */
-.team-title {
+
+.team {
+  background-color: var(--second-light-bg);
+}
+. .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -165,6 +169,7 @@ span {
 }
 
 /* Секція підвал FOOTER */
+
 .footer {
   background-color: var(--black-bg-color);
 }
@@ -199,4 +204,33 @@ span {
 .adress-link:hover,
 .adress-link:focus {
   color: var(--accent-text-color);
+}
+
+/* Секція портфоліо PORTFOLIO */
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--main-light-bg);
+  background-color: var(--accent-text-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
