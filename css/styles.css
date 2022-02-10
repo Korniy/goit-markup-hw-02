@@ -29,7 +29,7 @@ body {
   text-decoration: none;
 } */
 
-/* Шапка сайту Header */
+/* Шапка сайту HEDER */
 
 .header {
   background-color: var(--main-light-bg);
@@ -61,7 +61,7 @@ span {
   color: var(--accent-text-color);
 }
 
-.header-phone .header-email {
+.header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -69,7 +69,26 @@ span {
   color: var(--second-text-color);
 }
 
-/* Hero */
+.header-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-text-color);
+}
+
+/* Секція герой HERO */
+
 .hero {
   background-color: var(--black-bg-color);
   text-align: center;
@@ -98,3 +117,32 @@ span {
 .hero-btn:focus {
   background-color: #188ce8;
 }
+
+/* Секція переваги ADVANTAGES */
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* Секція заняття WORK */
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Секція команда TEAM */
