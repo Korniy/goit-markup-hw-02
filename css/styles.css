@@ -127,7 +127,6 @@ span {
   text-transform: uppercase;
 }
 .advantages-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -159,9 +158,45 @@ span {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/* Секція підвал FOOTER */
+.footer {
+  background-color: var(--black-bg-color);
+}
+.footer-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-light-bg);
+}
+
+.adress-desk {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-light-bg);
+}
+
+.adress-desk:hover,
+.adress-desk:focus {
+  color: var(--accent-text-color);
+}
+
+.adress-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--accent-text-color);
 }
