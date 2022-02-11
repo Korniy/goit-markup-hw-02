@@ -1,6 +1,7 @@
 :root {
-  /* Основні шрифти */
+  /* Основний шрифт */
   --main-font: 'Roboto', sans-serif;
+  /* Другорядний шрифт */
   --secondary-font: 'Raleway', sans-serif;
 
   /* Основний колір */
@@ -10,7 +11,7 @@
   /* Колір акценту */
   --accent-text-color: #2196f3;
 
-  /* Колір фону */
+  /* Кольори фону */
   --main-light-bg: #ffffff;
   --second-light-bg: #f5f4fa;
   --black-bg-color: #2f303a;
@@ -21,13 +22,13 @@ body {
   color: var(--main-text-color);
 }
 
-/* .list {
+.list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
-} */
+}
 
 /* Шапка сайту HEDER */
 
@@ -103,6 +104,7 @@ span {
 }
 
 .hero-btn {
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -126,6 +128,7 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .advantages-text {
   font-size: 14px;
   line-height: 1.71;
@@ -147,7 +150,7 @@ span {
 .team {
   background-color: var(--second-light-bg);
 }
-. .team-title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -183,6 +186,7 @@ span {
 }
 
 .adress-desk {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -195,6 +199,7 @@ span {
 }
 
 .adress-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -208,6 +213,7 @@ span {
 
 /* Секція портфоліо PORTFOLIO */
 .portfolio-btn {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
