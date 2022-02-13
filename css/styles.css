@@ -31,7 +31,6 @@ body {
 }
 
 /* Шапка сайту HEDER */
-
 .header {
   background-color: var(--main-light-bg);
 }
@@ -93,7 +92,6 @@ span {
 }
 
 /* Секція герой HERO */
-
 .hero {
   background-color: var(--black-bg-color);
 }
@@ -124,7 +122,6 @@ span {
 }
 
 /* Секція переваги ADVANTAGES */
-
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -141,7 +138,6 @@ span {
 }
 
 /* Секція заняття WORK */
-
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -150,7 +146,6 @@ span {
 }
 
 /* Секція команда TEAM */
-
 .team {
   background-color: var(--second-light-bg);
 }
@@ -176,7 +171,6 @@ span {
 }
 
 /* Секція підвал FOOTER */
-
 .footer {
   background-color: var(--black-bg-color);
 }
