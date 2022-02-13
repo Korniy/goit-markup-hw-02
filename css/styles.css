@@ -62,6 +62,10 @@ span {
   color: var(--accent-text-color);
 }
 
+.nav-item .link.current {
+  color: var(--accent-text-color);
+}
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -226,6 +230,10 @@ span {
   color: var(--main-light-bg);
   background-color: var(--accent-text-color);
   cursor: pointer;
+}
+
+.nav-list .link.curretn {
+  color: var(--accent-text-color);
 }
 
 .portfolio-title {
